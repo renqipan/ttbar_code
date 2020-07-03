@@ -1,0 +1,19 @@
+Datacard for event category: ttbar
+imax 1 number of channels
+jmax 6 number of processes minus 1
+kmax * number of nuisance parameters
+---------------------------------
+
+shapes * ttbar ttbar.root w:$PROCESS w:$PROCESS_$SYSTEMATIC
+---------------------------------
+bin           ttbar
+observation   -1
+---------------------------------
+
+bin 	ttbar	ttbar	ttbar	ttbar	ttbar	ttbar	ttbar	
+process 	ttbar_Aterm	ttbar_Bterm	ttbar_Cterm	ttbar_Dterm	ttbar_Eterm	ttbar_Fterm	single_top	
+process 	-5	-4	-3	-2	-1	0	1	
+rate 	869179.938	863059.625	887532.812	858076.625	843051.000	867530.562	47084.012	
+sig_norm	 lnN 	1.08	1.08	1.08	1.08	1.08	1.08	-	
+bkg_norm	 lnN 	-	-	-	-	-	-	1.3	
+others_un	 lnN 	1.15	1.15	1.15	1.15	1.15	1.15	1.15	
